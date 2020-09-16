@@ -4,6 +4,12 @@ public class Car {
     private int price;
     private int seats;
 
+    public Car(double mileage, int price, int seats) {
+        this.mileage = mileage;
+        this.price = price;
+        this.seats = seats;
+    }
+
     public String carStart(){
         return "Car Started";
     }

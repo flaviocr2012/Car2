@@ -2,6 +2,11 @@ public class DirtCar extends Car {
     //Super Keyword! -> referring -> parent -> Car
 
 
+    public DirtCar(double mileage, int price, int seats, int dirtyTerrainTopSpeed) {
+        super(mileage, price, seats);
+        this.dirtyTerrainTopSpeed = dirtyTerrainTopSpeed;
+    }
+
     private int dirtyTerrainTopSpeed;
 
     public int getDirtyTerrainTopSpeed() {

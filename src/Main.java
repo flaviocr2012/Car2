@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        Car benz = new Car();
+//        Car benz = new Car();
 
-        DirtCar dirtybenz = new DirtCar();
-        dirtybenz.setMileage(8);
-        dirtybenz.setPrice(35000);
-        dirtybenz.setSeats(3);
-        dirtybenz.setDirtyTerrainTopSpeed(60);
+        DirtCar dirtybenz = new DirtCar(30, 55000, 5, 60);
+//        dirtybenz.setMileage(8);
+//        dirtybenz.setPrice(35000);
+//        dirtybenz.setSeats(3);
+//        dirtybenz.setDirtyTerrainTopSpeed(60);
 
         System.out.println("Dirty Benz's mileage is: " + dirtybenz.getMileage());
         System.out.println("Dirty Benz's price is " + dirtybenz.getPrice() + " dollars");
