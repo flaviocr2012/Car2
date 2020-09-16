@@ -1,30 +1,34 @@
 public class Car {
-    //mileage, price, seats count
 
-    double mileage;
-    int price;
-    int seats;
+    private double mileage;
+    private int price;
+    private int seats;
 
-    // constructors - special method - create objects - implicitly called.
+    public double getMileage() {
+        return mileage;
+    }
 
-    //this -> reference to whoever is using it.
-    //class that using the "this" keyword.
+    public void setMileage(double mileage) {
+        this.mileage = mileage;
+    }
 
-    public Car(double mileages, int prices, int seats) {
-        this.mileage = mileages; //set class's field mileage to be equal to mileage from method.
-        this.price = prices;
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
+    public void setSeats(int seats) {
         this.seats = seats;
-
-    }
-
-    // Creating methods
-
-    public void carStart() {
-        System.out.println("Car Started");
-    }
-
-    public void carShuttOff() {
-        System.out.println("Car Engine off");
     }
 
 }
+
+
+
