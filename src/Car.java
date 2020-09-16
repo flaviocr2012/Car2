@@ -4,6 +4,10 @@ public class Car {
     private int price;
     private int seats;
 
+    public String carStart(){
+        return "Car Started";
+    }
+
     public double getMileage() {
         return mileage;
     }
